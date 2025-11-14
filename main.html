@@ -8,6 +8,58 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method = "post">
+		<!-- Name -->
+		<label for = "name"  class="required">Name :</label>
+		<input type = "text" id = "name" name = "name" required>
+		<br><br>
+
+		<!-- Email -->
+		<label for = "email"  class="required">Email :</label>
+		<input type = "email" id = "email" name = "email" required>
+		<br><br>
+
+		<!-- Gender -->
+		<span class="required">Gender :</span>
+        <br>
+		<input type = "radio" name = "gender" id = "male" value = "Male" required>
+		<label for = "male">Male</label>
+		<input type = "radio" name = "gender" id = "female" value = "Female" required>
+		<label for = "female">Female</label>
+		<br><br>
+
+		<!-- Laptop Brand -->
+		<label for = "laptop">Laptop Brands :</label>
+		<select name = "laptop" id = "laptop">
+			<option value = "Apple">Apple</option>
+			<option value = "Asus">Asus</option>
+			<option value = "HP">HP</option>
+		</select>
+		<br><br>
+
+		<!-- Age -->
+		<label for = "age"  class="required">Age :</label>
+		<input type = "number" id = "age" name = "age" required>
+		<br><br>
+
+		<!-- Date of Birth -->
+		<label for = "dob" class="required">Date of Birth :</label>
+		<input type = "date" id = "dob" name = "dob" required>
+		<br><br>
+
+		<!-- Password -->
+		<label for = "password" class="required">Password :</label>
+		<input type = "password" id = "password" name = "password" required> 
+		<br><br>
+
+		<!-- Portfolio URL -->
+		<label for = "portfolio">Portfolio URL :</label>
+		<input type = "url" id = "portfolio" name = "portfolio" required>
+		<br><br>
+
+		<!-- Submit Button -->
+		<input type = "submit" value = "submit">
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
